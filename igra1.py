@@ -7,7 +7,7 @@ number = 7
 
 
 while attempts < 3:
-    guess = raw_input(Ugani stevilko!)
+    guess = raw_input("Ugani stevilko!")
     guess = int(guess)
 
     attempts = attempts + 1
@@ -23,11 +23,11 @@ while attempts < 3:
 
 if guess == number:
     attempts = str(attempts)
-    print('Čestitam številko si uganil v' + attempts + ' poiskusih!')
+    print('Cestitam stevilko si uganil v' + attempts-eh + ' poiskusih!')
 
 if guess != number:
     number = str(number)
-    print('To ni številka' + number)
+    print('To ni stevilka' + number)
 
 
 
